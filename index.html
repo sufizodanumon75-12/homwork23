@@ -1,11 +1,70 @@
 <!doctype html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="flex justify-evenly lg:justify-between p-5 items-center">
+      <img src="./image/i.svg" alt="" />
+      <div class="hidden lg:flex lg:justify-evenly gap-5">
+        <div>
+          <p>
+            Аналитика и оцифровка продаж
+            <span class="text-purple-900">Wildberries</span> и
+            <span class="text-blue-700">Ozon</span>
+          </p>
+        </div>
+        <p>О нас</p>
+        <p>Возможности</p>
+        <p>Тарифы</p>
+      </div>
+      <div class="lg:flex gap-3">
+        <img src="./image/vixod.svg" alt="" />
+        <button class="hidden lg:flex">Вход</button>
+      </div>
+      <button
+        class="hidden lg:flex bg-linear-to-br from-[#11AE88] to-[#2A84EE] rounded-2xl p-2 pl-5 pr-5 text-white"
+      >
+        Зарегистрироваться
+      </button>
+      <button class="lg:hidden"><img src="./image/menu.svg" alt="" /></button>
+    </header>
+    <section class="flex flex-col lg:flex-row lg:justify-evenly">
+      <div>
+        <div class="flex flex-col gap-10">
+          <h1 class="text-3xl">
+            <span class="text-green-500">Внутренняя аналитика</span> и <span
+              class="text-blue-500"
+              >финансовый учёт</span
+            >
+            для бизнеса на маркетплейсах
+          </h1>
+          <p>
+            Увеличивай прибыль, автоматизируй рутину и экономь время на сборе
+            и анализе отчётов
+          </p>
+        </div>
+        <div
+          class="bg-linear-to-br from-[#11AE88] to-[#2A84EE] text-white flex flex-col rounded-2xl gap-5 p-5"
+        >
+          <p>
+            Начните свой 3-дневный пробный период с неограниченным доступом
+            ко всем возможностям
+          </p>
+          <div>
+            <input
+              class="bg-white text-gray-400 rounded-2xl "
+              type="email"
+              name=""
+              id=""
+            />
+            <button>Попробовать</button>
+          </div>
+        </div>
+      </div>
+      <img class="hidden lg:flex" src="./image/box.svg" alt="box" />
+    </section>
+  </body>
 </html>
